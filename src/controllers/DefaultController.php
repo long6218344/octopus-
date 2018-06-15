@@ -25,7 +25,7 @@ class DefaultController extends Controller
 		$arrConfig = Config::get('redis');
 		$objRedis = Octopus\RedisEx::getInstance('master', $arrConfig['default']);
 		$objRedisW = $objRedis->getWritableRedis();
-		// $objRedisW->set('test:a', 'b');
+		// $objRedisW->set('test:a', '21211');
 		echo $objRedisW->get('test:a');
 	}
 
