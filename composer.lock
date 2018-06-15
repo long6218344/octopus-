@@ -1,0 +1,297 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a4fe79f253003fea82689a651c747b55",
+    "packages": [
+        {
+            "name": "Octopus/Filter",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@172.16.0.245:Octopus/Filter.git",
+                "reference": "7663965b50b647d5db0856ca5c083a8bb06f5988"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://packagist.2345.com/repo/private/dists/octopus/filter/1.0.0.0/7663965b50b647d5db0856ca5c083a8bb06f5988.zip",
+                "reference": "7663965b50b647d5db0856ca5c083a8bb06f5988",
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "http://packagist.2345.com/repo/private/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Octopus\\": "src/"
+                }
+            },
+            "time": "2015-05-22 02:27:19"
+        },
+        {
+            "name": "Octopus/Functions",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@172.16.0.245:Octopus/Functions.git",
+                "reference": "fd8646364c5365cc8c393766351ae05be25f427b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://packagist.2345.com/repo/private/dists/octopus/functions/1.0.0.0/fd8646364c5365cc8c393766351ae05be25f427b.zip",
+                "reference": "fd8646364c5365cc8c393766351ae05be25f427b",
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "http://packagist.2345.com/repo/private/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "time": "2015-05-22 02:28:09"
+        },
+        {
+            "name": "Octopus/Logger",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@172.16.0.245:Octopus/Logger.git",
+                "reference": "f14298eed4a5273ab4f01bb0741b9b4d1dc7e1ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://packagist.2345.com/repo/private/dists/octopus/logger/1.1.0.0/f14298eed4a5273ab4f01bb0741b9b4d1dc7e1ca.zip",
+                "reference": "f14298eed4a5273ab4f01bb0741b9b4d1dc7e1ca",
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "http://packagist.2345.com/repo/private/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Octopus\\": "src/"
+                }
+            },
+            "time": "2015-07-01 06:29:38"
+        },
+        {
+            "name": "Octopus/PdoEx",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "git@172.16.0.245:Octopus/PdoEx.git",
+                "reference": "06a710d7ae7fc27ae907b5f62e7f06f211200be1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://packagist.2345.com/repo/private/dists/octopus/pdoex/1.0.2.0/06a710d7ae7fc27ae907b5f62e7f06f211200be1.zip",
+                "reference": "06a710d7ae7fc27ae907b5f62e7f06f211200be1",
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "http://packagist.2345.com/repo/private/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "octopus/logger": "1.1.0",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Octopus\\": "src/"
+                }
+            },
+            "time": "2015-07-08 05:54:47"
+        },
+        {
+            "name": "Octopus/RedisEx",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@172.16.0.245:Octopus/RedisEx.git",
+                "reference": "3ee0ee7ccf78b46b35e867745b74b23c4df95f84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://packagist.2345.com/repo/private/dists/octopus/redisex/1.0.0.0/3ee0ee7ccf78b46b35e867745b74b23c4df95f84.zip",
+                "reference": "3ee0ee7ccf78b46b35e867745b74b23c4df95f84",
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "http://packagist.2345.com/repo/private/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Octopus\\": "src/"
+                }
+            },
+            "time": "2015-05-22 02:34:00"
+        },
+        {
+            "name": "Octopus/Router",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@172.16.0.245:Octopus/Router.git",
+                "reference": "d27ad65b81bdf8f8a78d9c8c32b45c8230af4827"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://packagist.2345.com/repo/private/dists/octopus/router/1.0.0.0/d27ad65b81bdf8f8a78d9c8c32b45c8230af4827.zip",
+                "reference": "d27ad65b81bdf8f8a78d9c8c32b45c8230af4827",
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "http://packagist.2345.com/repo/private/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Octopus\\": "src/"
+                }
+            },
+            "time": "2015-05-22 02:34:43"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://packagist.phpcomposer.com/files/php-fig/log/fe0936ee26643249e916849d48e3a51d5f5e278b.zip",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "http://packagist.phpcomposer.com/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "smarty/smarty",
+            "version": "v2.6.29",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smarty-php/smarty.git",
+                "reference": "47fa66cdcf0bde5c44923fb0e15dd0921f8d3a83"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://packagist.phpcomposer.com/files/smarty-php/smarty/47fa66cdcf0bde5c44923fb0e15dd0921f8d3a83.zip",
+                "reference": "47fa66cdcf0bde5c44923fb0e15dd0921f8d3a83",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "libs/Smarty.class.php",
+                    "libs/Smarty_Compiler.class.php",
+                    "libs/Config_File.class.php"
+                ]
+            },
+            "notification-url": "http://packagist.phpcomposer.com/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Monte Ohrt",
+                    "email": "monte@ohrt.com"
+                },
+                {
+                    "name": "Uwe Tews",
+                    "email": "uwe.tews@googlemail.com"
+                }
+            ],
+            "description": "Smarty - the compiling PHP template engine",
+            "homepage": "http://www.smarty.net",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2015-06-21 13:10:14"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}
