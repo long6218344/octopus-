@@ -59,7 +59,7 @@ Apache重写规则：
             RewriteEngine on
             RewriteCond %{REQUEST_FILENAME} !-f
             RewriteCond %{REQUEST_FILENAME} !-d
-            RewriteRule ^(.*)$ index.php/$1 [L]
+            RewriteRule ^(.*)$ index.php?/$1 [L]
         </Directory>
         ErrorLog "d:/wamp/logs/octopus-dev-error.log"
         CustomLog "d:/wamp/logs/octopus-dev-access.log" common
